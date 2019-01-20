@@ -1,0 +1,56 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 1, 2018, 9:01:00 PM
+    Author     : HaShaN
+*/
+
+#form-wrapper{
+    background-color: white;
+}
+.user-container{
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.user-record{
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.user-record:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.fullName{
+    font-size: 20px;
+}
+
+.username-div{
+    float: left;
+}
+
+.username{
+   line-height:25px;
+   color: slategray;
+}
+
+.email{
+   line-height:23px;
+   color: slategray;
+}
+
+.material-icons{
+    display: inline-flex;
+    vertical-align: top;
+    margin-right: 2px;
+    color: slategray;
+}
+
+.message-div{
+    float: right;
+}

@@ -1,0 +1,100 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Affordable and professional web design">
+    <meta name="keywords" content="web design, affordable web design, professional web design">
+    <meta name="author" content="Brad Traversy">
+    <title>CLICKHOME Official Website | Welcome</title>
+    <link href="../css/newcss.css" rel="stylesheet" type="text/css"/>
+   
+  </head>
+  <body>
+
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1 color="white"><a href="index01.html"><span class="highlight">CLICK</span>HOME</a></h1>
+          </div>
+          <nav>
+            <ul>
+              <li class="current"><a href="index.html">Home</a></li>
+              <li><a href="newpost.html">New Post</a></li>
+              <li><a href="###">My Post</a></li>
+              <li><a href="about.html">About</a></li>
+              <li id="logout"><a href="##">LOGOUT</a></li>
+            </ul>
+          </nav>
+
+      </div>
+    </header>
+
+    <section id="showcase">
+      <div class="w3-content w3-section" style="max-width:500px">
+          
+        <img class="mySlides" src="../img/slide20.jpg" style="width:270%">
+        <img class="mySlides" src="../img/slide21.jpg" style="width:270%">
+        <img class="mySlides" src="../img/slide22.jpg" style="width:270%">
+        <img class="mySlides" src="../img/slide23.jpg" style="width:270%">
+      </div>
+    </section>
+
+      <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}
+          x[myIndex-1].style.display = "block";
+          setTimeout(carousel, 5000); // Change image every 2 seconds
+        }
+      </script>
+
+      <section id="newsletter">
+
+        <div class="container">
+          <h1>Services</h1>
+        </div>
+
+      </section>
+
+      <section id="boxes">
+        <div class="container">
+          <div class="box">
+            <img src="../img/index/index02.png" style="width:60%">
+            <h3>FIND JOBS</h3>
+           
+
+          </div>
+
+          <div class="box">
+            <img src="../img/index/index01.png" style="width:60%" >
+            <h3>FIND EMPLOYEES</h3>
+            
+          </div>
+          <div class="box">
+            <img src="../img/index/index03.png" style="width:60%">
+            <h3>WARRENTIES</h3>
+            
+          </div>
+
+        </div>
+
+      </section>
+
+      <footer>
+        <p>Copyright © 2017. All Rights Reserved.</p>
+
+      </footer>
+
+
+  </body>
+</html>
