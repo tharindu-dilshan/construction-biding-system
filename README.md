@@ -48,9 +48,10 @@ write his/their advice.
 • Controller - Controller acts on both model and view. It controls the data flow into model 
 object and updates the view whenever data changes. It keeps view and model separate.
 
-#System #Design
+**System Design**
 
-#The system has a three-tier architecture.
+**The system has a three-tier architecture**
+
 • Front Tier
         o This tier designs interfaces.
         o NetBeans and modern UI designs were used to design interfaces.
@@ -64,7 +65,7 @@ object and updates the view whenever data changes. It keeps view and model separ
 
 **Interfaces Used in the Web application**
 
-#Index Page
+**Index Page**
 
 ![IMAGE](https://i.ibb.co/Vt9pzgX/1.png)
 
@@ -73,14 +74,14 @@ view posts by posting the clients. And sign in page redirect the web page to log
 Sign-up button let us to create a new account user for the web site. About us button include 
 information regarding the organization.
 
-#Sign-in page
+**Sign-in page**
 
 ![IMAGE](https://i.ibb.co/M5Yq1CX/2.png)
 
 This Page facilitate the users to login into the web page. Main Login for the system.
 
 
-#Sign-up Form
+**Sign-up Form**
 
 
 ![IMAGE](https://i.ibb.co/YNqyQMf/3.png)
@@ -88,7 +89,7 @@ This Page facilitate the users to login into the web page. Main Login for the sy
 For new users they must have to fill those fields and sign up to the web site. but he/she 
 provide validate information to the system otherwise he/she was unable to sign up to the system.
 
-#Main Form After Login/Sign-up
+**Main Form After Login/Sign-up**
 
 
 ![IMAGE](https://i.ibb.co/CPd7J8G/4.png)
@@ -97,7 +98,7 @@ After Sign up/Login this page will be automatically redirect to the user. This h
  included three buttons. new post, my post and logout.
 
 
- #All Post Form
+ **All Post Form**
 
 ![IMAGE](https://i.ibb.co/K27tgph/5.png)
 
@@ -105,7 +106,7 @@ This form has include all the post of other users posted, user can view them and
 proposal for them.
 
 
-#New Post form
+**New Post form**
 
 ![IMAGE](https://i.ibb.co/V0G2YkN/6.png)
 
@@ -113,7 +114,7 @@ User Can Post the projects using this form, but there was an validation part for
 some users can provide fake details to the post. Therefore user data validation is required 
 for thr system.
 
-#My Post Form
+**My Post Form**
 
 
 ![IMAGE](https://i.ibb.co/YN7g2D8/7.png)
