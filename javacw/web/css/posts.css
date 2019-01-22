@@ -1,0 +1,156 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 18, 2018, 8:30:01 PM
+    Author     : HaShaN
+*/
+
+.post-div{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    width: 500px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.post-div:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+#form-wrapper{
+    background-color: white;
+}
+
+.post-header{
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+    width: 100% - 10px;
+    background-color: #CD5C5C;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.post-desc{
+    overflow-y: auto;
+    max-height: 130px;
+    margin: 10px;
+}
+
+.post-time{
+    margin-top: 10px;
+    padding-left: 10px;
+    color: darkgray;
+    float: left;
+}
+
+.post-attch{
+    float: right;
+    margin-top: 10px;
+}
+
+#post-container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 81%;
+}
+
+.downloadBtn{
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 10px;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    color: white;
+}
+
+.comment{
+    padding: 10px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.comment-txt{
+    overflow-y: auto;
+    max-height : 70px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.comment-desc{
+    font-size: 12px;
+    color: #35424a;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.comment-div{
+    border-top: 1px solid darkgray;
+    margin-top: 60px;
+}
+
+.comments-div{
+    overflow-y: auto;
+    max-height : 200px;
+}
+
+.comment-box{
+    margin: 10px;
+}
+
+input[type="text"]{
+    width: 380px;
+    height: 15px;
+    border: 2px solid #CD5C5C;
+    display: inline-block;
+    margin-bottom: 10px; 
+}
+.comment-box:focus{
+    outline: none;
+}
+
+.comment-btn{
+    padding: .5rem 1rem;
+    border-radius: 4px;
+    background-color: #CD5C5C;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 5px;
+    
+    
+    /*color: #fff;
+    background: #FF0066;
+    
+    display: inline-block;
+    border-radius: 4px;
+    transition-duration: .25s;
+    border: none;
+    font-size: 14px;
+    color: #fa0065;
+    font-weight: 700;
+    transition-duration: .2s;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;*/
+}
+
+.comment-btn:hover{
+    cursor: pointer;
+}
+
+.delete-btn-div{
+    padding-top: 5px;
+    padding-right: 5px;
+    float: right;
+}
